@@ -28,7 +28,7 @@ I propose to use the "controllers" folder to put the handlers of the different r
 
 If you need to create other components or folders, feel free.
 
-In this part it is important to take into account an architecture that allows us to change the database if necessary.
+In this part it is important to keep in mind an architecture that allows us to change the database if necessary.
 
 Try to develop with clean architectures and patterns like SOLID in mind.
 
