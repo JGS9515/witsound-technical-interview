@@ -19,4 +19,4 @@ db.prepare("INSERT INTO users (name) VALUES ('John Doe')").run();
 db.prepare("INSERT INTO users (name) VALUES ('John Foo')").run();
 
 const rows = db.prepare("select * from users").all();
-console.log(rows);
+console.log(rows); //[{id: 1, name: "John Doe"}, {id: 2, name: "John Foo"}]
