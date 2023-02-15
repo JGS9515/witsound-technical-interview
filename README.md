@@ -34,7 +34,7 @@ Try to develop with clean architectures and patterns like SOLID in mind.
 
 ### Help with Sqlite
 
-There is a file called `server/db/example.ts` which shows how to access the database in case you don't have previous experience with sqlite.
+There is a file called `server/db/example.ts` which shows how to access the database in case you don't have previous experience with sqlite. You can execute the file to test it with: ```yarn tsx server/db/example.ts```
 
 # Requisites
 
