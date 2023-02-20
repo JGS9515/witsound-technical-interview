@@ -29,6 +29,7 @@ function Form() {
 
     const getUserList = () => {
         UsersService.getUserList().then((res) => {
+            console.log(res.data)
             setUserList(res.data);
         });
     };

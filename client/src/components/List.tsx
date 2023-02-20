@@ -6,7 +6,7 @@ function List({userList}:Props) {
 
   return (
     <ul>
-      {userList?.map((user) => <li>{user.name}</li>)}
+      {userList?.map((user) => <li key={user.id}>{user.name}</li>)}
     </ul>
   );
 }

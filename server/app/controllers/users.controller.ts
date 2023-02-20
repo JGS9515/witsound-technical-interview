@@ -14,18 +14,14 @@ export class UsersController {
     return this._repository
       .findAll()
       .then((users) => {
-        console.log(users)
         response.status(200).send(users)
       })
       .catch((error) => {
-        console.log(error)
         return response.status(500).send({ error: error })
-      }
-      );
+      });
   }
 
   public async addUser(request: Request, response: Response, next: NextFunction): Promise<any> {
-    console.log(request.body.user)
     try {
       let user = new User();
       user.name = request.body.user;
